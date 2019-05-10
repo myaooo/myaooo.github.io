@@ -7109,10 +7109,10 @@ img {
 td, th {
   line-height: 1.5;
   border-bottom: none;
-  padding-bottom: 0;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  padding-top: 0.75rem; }
+  padding-bottom: 0.4rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  padding-top: 0.4rem; }
 
 p {
   margin-bottom: 0.5rem; }
@@ -7242,6 +7242,52 @@ ul.news {
   font-weight: 600; }
 
 
+.experiences {
+  border: 0;
+  border-spacing: 0;
+  margin-bottom: 0; }
+  .experiences .date {
+    font-size: 0.75rem;
+    font-weight: 300;
+    min-width: 60px;
+    text-align: right; }
+  .experiences span.date-from::after {
+    content: " "; }
+  .experiences span.date-to {
+    white-space: nowrap; }
+    .experiences span.date-to::before {
+      content: "- "; }
+  .experiences tr {
+    border: none; }
+  .experiences td {
+    vertical-align: top;
+    border-bottom: none; }
+  .experiences span.institute::after {
+    content: ", "; }
+  .experiences div.content {
+    margin-top: 4px;
+    font-weight: 300;
+    font-size: 0.75rem; }
+
+.awards {
+  font-weight: 400;
+  border: 0;
+  border-spacing: 0; }
+  .awards .date {
+    font-size: 0.75rem;
+    font-weight: 300;
+    text-align: right;
+    min-width: 65px; }
+  .awards .award-content {
+    margin-top: 4px;
+    font-size: 0.7rem;
+    font-weight: 300; }
+  .awards tr {
+    border: none; }
+  .awards td {
+    vertical-align: top;
+    border-bottom: none; }
+
 .pub ul {
   list-style-type: none;
   padding-left: 0;
@@ -7264,10 +7310,10 @@ ul.news {
     .pub ul li.pub-resource a {
       color: #666;
       border-bottom: none; }
-    .pub ul li.pub-resource:hover {
+    .pub ul li.pub-resource:hover, .pub ul li.pub-resource:active {
       background: #555;
       border-color: #555; }
-      .pub ul li.pub-resource:hover a {
+      .pub ul li.pub-resource:hover a, .pub ul li.pub-resource:active a {
         color: white; }
 
 .pub-venue-type {
@@ -7317,68 +7363,62 @@ ul.news {
 .open:after {
   content: "-"; }
 
-.yao-profile {
-  width: 100%;
-  max-width: 200px;
-  height: auto;
-  margin: 5px 20px;
-  float: left; }
+.vita {
+  line-height: 1.5; }
+  .vita h5 {
+    font-size: 0.8rem;
+    margin-bottom: 0; }
+  .vita h2 {
+    font-size: 1.2rem; }
 
-.experiences {
+@media print {
+  a {
+    text-decoration: none;
+    border-bottom: none; }
+  footer {
+    display: none; }
+  @page {
+    size: auto; } }
+
+.educations {
+  font-weight: 300;
   border: 0;
   border-spacing: 0;
   margin-bottom: 0; }
-  .experiences .date {
+  .educations .degree {
+    font-weight: 600; }
+  .educations .date {
     font-size: 0.75rem;
     font-weight: 300;
     min-width: 60px;
     text-align: right; }
-  .experiences span.date-from::after {
+  .educations span.date-from::after {
     content: " "; }
-  .experiences span.date-to {
+  .educations span.date-to {
     white-space: nowrap; }
-    .experiences span.date-to::before {
+    .educations span.date-to::before {
       content: "- "; }
-  .experiences tr {
-    border: none; }
-  .experiences td {
-    vertical-align: top;
-    border-bottom: none; }
-  .experiences span.institute::after {
+  .educations span.institute::after {
     content: ", "; }
-
-.awards {
-  font-weight: 400;
-  border: 0;
-  border-spacing: 0; }
-  .awards .date {
-    font-size: 0.75rem;
-    font-weight: 300;
-    text-align: right;
-    min-width: 65px; }
-  .awards .award-content {
-    font-size: 0.7rem;
-    font-weight: 300; }
-  .awards tr {
+  .educations tr {
     border: none; }
-  .awards td {
+  .educations td {
     vertical-align: top;
     border-bottom: none; }
 
-.post-content {
-  padding-top: 12px;
-  margin: 0 12px; }
-  .post-content h1 {
-    text-align: center; }
-  .post-content img {
-    max-height: 80%; }
-  .post-content .post-meta {
-    font-size: 13px;
-    color: #999;
-    text-align: center;
-    padding-bottom: 32px; }
-  .post-content i {
-    margin-right: 6px; }
+.name {
+  font-size: 2.5rem;
+  margin-top: 0; }
+
+.contact {
+  font-weight: 300;
+  text-align: right; }
+  .contact i {
+    margin-right: 5px;
+    display: inline-flex;
+    align-self: center;
+    top: .2em;
+    position: relative; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

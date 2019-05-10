@@ -10020,7 +10020,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
+ // global.jQuery = global.$ = require('jquery'); 
+// import "popper.js";
+// import "bootstrap";
 
 var DelayedWrapper =
 /*#__PURE__*/
