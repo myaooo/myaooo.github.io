@@ -7365,5 +7365,20 @@ ul.news {
     vertical-align: top;
     border-bottom: none; }
 
+.post-content {
+  padding-top: 12px;
+  margin: 0 12px; }
+  .post-content h1 {
+    text-align: center; }
+  .post-content img {
+    max-height: 80%; }
+  .post-content .post-meta {
+    font-size: 13px;
+    color: #999;
+    text-align: center;
+    padding-bottom: 32px; }
+  .post-content i {
+    margin-right: 6px; }
+
 
 /*# sourceMappingURL=styles.chunk.css.map*/

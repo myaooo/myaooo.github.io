@@ -22,6 +22,468 @@ module.exports = ({"title":"Yao Ming", "author":"Yao Ming", "description":"Yao's
 
 /***/ }),
 
+/***/ "./content sync recursive \\.(png|jpe?g)$":
+/*!******************************************************!*\
+  !*** ./content ?resize&size=400 sync \.(png|jpe?g)$ ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./blog/pqe-reflection/forest.jpg": "./content/blog/pqe-reflection/forest.jpg?resize&size=400",
+	"./blog/vis2017/cactus.jpg": "./content/blog/vis2017/cactus.jpg?resize&size=400",
+	"./blog/vis2017/name_card.jpg": "./content/blog/vis2017/name_card.jpg?resize&size=400",
+	"./blog/vis2017/present.jpg": "./content/blog/vis2017/present.jpg?resize&size=400",
+	"./blog/vis2017/sun_flower.jpg": "./content/blog/vis2017/sun_flower.jpg?resize&size=400",
+	"./blog/vis2018/wtc.jpg": "./content/blog/vis2018/wtc.jpg?resize&size=400",
+	"./blog/vis2018/wtc_at_3.jpg": "./content/blog/vis2018/wtc_at_3.jpg?resize&size=400",
+	"./notes/cpp/virtual-functions.png": "./content/notes/cpp/virtual-functions.png?resize&size=400",
+	"./projects/atmseer/atmseer.png": "./content/projects/atmseer/atmseer.png?resize&size=400",
+	"./projects/prototype-net/architecture-original.png": "./content/projects/prototype-net/architecture-original.png?resize&size=400",
+	"./projects/prototype-net/architecture.png": "./content/projects/prototype-net/architecture.png?resize&size=400",
+	"./projects/rnnvis/teaser-web.png": "./content/projects/rnnvis/teaser-web.png?resize&size=400",
+	"./projects/rule-matrix/teaser-origin.jpg": "./content/projects/rule-matrix/teaser-origin.jpg?resize&size=400",
+	"./projects/rule-matrix/teaser.jpg": "./content/projects/rule-matrix/teaser.jpg?resize&size=400"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	var id = map[req];
+	if(!(id + 1)) { // check for number or string
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return id;
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./content sync recursive \\.(png|jpe?g)$";
+
+/***/ }),
+
+/***/ "./content sync recursive \\.(png|jpe?g|gif)$":
+/*!*****************************************!*\
+  !*** ./content sync \.(png|jpe?g|gif)$ ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./blog/animated_poster/1900.gif": "./content/blog/animated_poster/1900.gif",
+	"./blog/animated_poster/3_idiots.gif": "./content/blog/animated_poster/3_idiots.gif",
+	"./blog/animated_poster/edward_sheerwall.gif": "./content/blog/animated_poster/edward_sheerwall.gif",
+	"./blog/animated_poster/iron_man.gif": "./content/blog/animated_poster/iron_man.gif",
+	"./blog/animated_poster/v_for_construction.gif": "./content/blog/animated_poster/v_for_construction.gif",
+	"./blog/pqe-reflection/forest.jpg": "./content/blog/pqe-reflection/forest.jpg",
+	"./blog/vis2017/cactus.jpg": "./content/blog/vis2017/cactus.jpg",
+	"./blog/vis2017/name_card.jpg": "./content/blog/vis2017/name_card.jpg",
+	"./blog/vis2017/present.jpg": "./content/blog/vis2017/present.jpg",
+	"./blog/vis2017/sun_flower.jpg": "./content/blog/vis2017/sun_flower.jpg",
+	"./blog/vis2018/wtc.jpg": "./content/blog/vis2018/wtc.jpg",
+	"./blog/vis2018/wtc_at_3.jpg": "./content/blog/vis2018/wtc_at_3.jpg",
+	"./notes/cpp/virtual-functions.png": "./content/notes/cpp/virtual-functions.png",
+	"./projects/atmseer/atmseer.png": "./content/projects/atmseer/atmseer.png",
+	"./projects/prototype-net/architecture-original.png": "./content/projects/prototype-net/architecture-original.png",
+	"./projects/prototype-net/architecture.png": "./content/projects/prototype-net/architecture.png",
+	"./projects/rnnvis/teaser-web.png": "./content/projects/rnnvis/teaser-web.png",
+	"./projects/rule-matrix/teaser-origin.jpg": "./content/projects/rule-matrix/teaser-origin.jpg",
+	"./projects/rule-matrix/teaser.jpg": "./content/projects/rule-matrix/teaser.jpg"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	var id = map[req];
+	if(!(id + 1)) { // check for number or string
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return id;
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./content sync recursive \\.(png|jpe?g|gif)$";
+
+/***/ }),
+
+/***/ "./content/blog/animated_poster/1900.gif":
+/*!***********************************************!*\
+  !*** ./content/blog/animated_poster/1900.gif ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/1900-c71948b84ff0fd071db207054e56387d.gif";
+
+/***/ }),
+
+/***/ "./content/blog/animated_poster/3_idiots.gif":
+/*!***************************************************!*\
+  !*** ./content/blog/animated_poster/3_idiots.gif ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/3_idiots-c54ccc173f6c60850aa5aef0e743b203.gif";
+
+/***/ }),
+
+/***/ "./content/blog/animated_poster/edward_sheerwall.gif":
+/*!***********************************************************!*\
+  !*** ./content/blog/animated_poster/edward_sheerwall.gif ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/edward_sheerwall-9ebecc1d9d372731e849438b08b9a38f.gif";
+
+/***/ }),
+
+/***/ "./content/blog/animated_poster/iron_man.gif":
+/*!***************************************************!*\
+  !*** ./content/blog/animated_poster/iron_man.gif ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/iron_man-87c8816a71c083d59836bb19705f317b.gif";
+
+/***/ }),
+
+/***/ "./content/blog/animated_poster/v_for_construction.gif":
+/*!*************************************************************!*\
+  !*** ./content/blog/animated_poster/v_for_construction.gif ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/v_for_construction-b9b1915c918bf262477ded54a13bd791.gif";
+
+/***/ }),
+
+/***/ "./content/blog/pqe-reflection/forest.jpg":
+/*!************************************************!*\
+  !*** ./content/blog/pqe-reflection/forest.jpg ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/forest-f4d477d14c7721c1c5fc18b0ea3e03c6.jpg";
+
+/***/ }),
+
+/***/ "./content/blog/pqe-reflection/forest.jpg?resize&size=400":
+/*!****************************************************************!*\
+  !*** ./content/blog/pqe-reflection/forest.jpg?resize&size=400 ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {srcSet:"/_next/static/images/forest-400-4c97222428ff8c1b2e6718b1b12b723c.jpg"+" 400w",images:[{path:"/_next/static/images/forest-400-4c97222428ff8c1b2e6718b1b12b723c.jpg",width:400,height:267}],src:"/_next/static/images/forest-400-4c97222428ff8c1b2e6718b1b12b723c.jpg",toString:function(){return "/_next/static/images/forest-400-4c97222428ff8c1b2e6718b1b12b723c.jpg"},placeholder: undefined,width:400,height:267};
+
+/***/ }),
+
+/***/ "./content/blog/vis2017/cactus.jpg":
+/*!*****************************************!*\
+  !*** ./content/blog/vis2017/cactus.jpg ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/cactus-5068d6241427af07659438f687676ed2.jpg";
+
+/***/ }),
+
+/***/ "./content/blog/vis2017/cactus.jpg?resize&size=400":
+/*!*********************************************************!*\
+  !*** ./content/blog/vis2017/cactus.jpg?resize&size=400 ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {srcSet:"/_next/static/images/cactus-400-5d059e51998402b899989a79a93f9e58.jpg"+" 400w",images:[{path:"/_next/static/images/cactus-400-5d059e51998402b899989a79a93f9e58.jpg",width:400,height:300}],src:"/_next/static/images/cactus-400-5d059e51998402b899989a79a93f9e58.jpg",toString:function(){return "/_next/static/images/cactus-400-5d059e51998402b899989a79a93f9e58.jpg"},placeholder: undefined,width:400,height:300};
+
+/***/ }),
+
+/***/ "./content/blog/vis2017/name_card.jpg":
+/*!********************************************!*\
+  !*** ./content/blog/vis2017/name_card.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/name_card-57b07f963bd549469bced74a45173948.jpg";
+
+/***/ }),
+
+/***/ "./content/blog/vis2017/name_card.jpg?resize&size=400":
+/*!************************************************************!*\
+  !*** ./content/blog/vis2017/name_card.jpg?resize&size=400 ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {srcSet:"/_next/static/images/name_card-400-7c92f674ffcb275b994f54676cf63ea7.jpg"+" 400w",images:[{path:"/_next/static/images/name_card-400-7c92f674ffcb275b994f54676cf63ea7.jpg",width:400,height:533}],src:"/_next/static/images/name_card-400-7c92f674ffcb275b994f54676cf63ea7.jpg",toString:function(){return "/_next/static/images/name_card-400-7c92f674ffcb275b994f54676cf63ea7.jpg"},placeholder: undefined,width:400,height:533};
+
+/***/ }),
+
+/***/ "./content/blog/vis2017/present.jpg":
+/*!******************************************!*\
+  !*** ./content/blog/vis2017/present.jpg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/present-a57a550fb0a654a89296307b4f998faf.jpg";
+
+/***/ }),
+
+/***/ "./content/blog/vis2017/present.jpg?resize&size=400":
+/*!**********************************************************!*\
+  !*** ./content/blog/vis2017/present.jpg?resize&size=400 ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {srcSet:"/_next/static/images/present-400-80efd7110c8f00a67de8ca3a4675ec33.jpg"+" 400w",images:[{path:"/_next/static/images/present-400-80efd7110c8f00a67de8ca3a4675ec33.jpg",width:400,height:300}],src:"/_next/static/images/present-400-80efd7110c8f00a67de8ca3a4675ec33.jpg",toString:function(){return "/_next/static/images/present-400-80efd7110c8f00a67de8ca3a4675ec33.jpg"},placeholder: undefined,width:400,height:300};
+
+/***/ }),
+
+/***/ "./content/blog/vis2017/sun_flower.jpg":
+/*!*********************************************!*\
+  !*** ./content/blog/vis2017/sun_flower.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/sun_flower-69302aace83a92ef48548b2f8cec7c9a.jpg";
+
+/***/ }),
+
+/***/ "./content/blog/vis2017/sun_flower.jpg?resize&size=400":
+/*!*************************************************************!*\
+  !*** ./content/blog/vis2017/sun_flower.jpg?resize&size=400 ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {srcSet:"/_next/static/images/sun_flower-400-90d1a3e1869b7481f56ee9bcbf404535.jpg"+" 400w",images:[{path:"/_next/static/images/sun_flower-400-90d1a3e1869b7481f56ee9bcbf404535.jpg",width:400,height:300}],src:"/_next/static/images/sun_flower-400-90d1a3e1869b7481f56ee9bcbf404535.jpg",toString:function(){return "/_next/static/images/sun_flower-400-90d1a3e1869b7481f56ee9bcbf404535.jpg"},placeholder: undefined,width:400,height:300};
+
+/***/ }),
+
+/***/ "./content/blog/vis2018/wtc.jpg":
+/*!**************************************!*\
+  !*** ./content/blog/vis2018/wtc.jpg ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/wtc-6e8d8b07826c086655d33875c1dd84a8.jpg";
+
+/***/ }),
+
+/***/ "./content/blog/vis2018/wtc.jpg?resize&size=400":
+/*!******************************************************!*\
+  !*** ./content/blog/vis2018/wtc.jpg?resize&size=400 ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {srcSet:"/_next/static/images/wtc-400-c84fcf2e223d4a3b3e4f22fc50482014.jpg"+" 400w",images:[{path:"/_next/static/images/wtc-400-c84fcf2e223d4a3b3e4f22fc50482014.jpg",width:400,height:225}],src:"/_next/static/images/wtc-400-c84fcf2e223d4a3b3e4f22fc50482014.jpg",toString:function(){return "/_next/static/images/wtc-400-c84fcf2e223d4a3b3e4f22fc50482014.jpg"},placeholder: undefined,width:400,height:225};
+
+/***/ }),
+
+/***/ "./content/blog/vis2018/wtc_at_3.jpg":
+/*!*******************************************!*\
+  !*** ./content/blog/vis2018/wtc_at_3.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/wtc_at_3-24477041620429ec39030edf05fc4f73.jpg";
+
+/***/ }),
+
+/***/ "./content/blog/vis2018/wtc_at_3.jpg?resize&size=400":
+/*!***********************************************************!*\
+  !*** ./content/blog/vis2018/wtc_at_3.jpg?resize&size=400 ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {srcSet:"/_next/static/images/wtc_at_3-400-a3c2bd290daf996351527e10606722f6.jpg"+" 400w",images:[{path:"/_next/static/images/wtc_at_3-400-a3c2bd290daf996351527e10606722f6.jpg",width:400,height:225}],src:"/_next/static/images/wtc_at_3-400-a3c2bd290daf996351527e10606722f6.jpg",toString:function(){return "/_next/static/images/wtc_at_3-400-a3c2bd290daf996351527e10606722f6.jpg"},placeholder: undefined,width:400,height:225};
+
+/***/ }),
+
+/***/ "./content/notes/cpp/virtual-functions.png":
+/*!*************************************************!*\
+  !*** ./content/notes/cpp/virtual-functions.png ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/virtual-functions-6bb92266b20da2cd3ff7ca6333fe97ff.png";
+
+/***/ }),
+
+/***/ "./content/notes/cpp/virtual-functions.png?resize&size=400":
+/*!*****************************************************************!*\
+  !*** ./content/notes/cpp/virtual-functions.png?resize&size=400 ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {srcSet:"/_next/static/images/virtual-functions-400-52ecef20b9465243f7766a57f8979769.png"+" 400w",images:[{path:"/_next/static/images/virtual-functions-400-52ecef20b9465243f7766a57f8979769.png",width:400,height:223}],src:"/_next/static/images/virtual-functions-400-52ecef20b9465243f7766a57f8979769.png",toString:function(){return "/_next/static/images/virtual-functions-400-52ecef20b9465243f7766a57f8979769.png"},placeholder: undefined,width:400,height:223};
+
+/***/ }),
+
+/***/ "./content/projects/atmseer/atmseer.png":
+/*!**********************************************!*\
+  !*** ./content/projects/atmseer/atmseer.png ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/atmseer-a704cf8177a8872df6e8bf232a2d6c0d.png";
+
+/***/ }),
+
+/***/ "./content/projects/atmseer/atmseer.png?resize&size=400":
+/*!**************************************************************!*\
+  !*** ./content/projects/atmseer/atmseer.png?resize&size=400 ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {srcSet:"/_next/static/images/atmseer-400-2d9d367b5ea1ded21088681abcee76e1.png"+" 400w",images:[{path:"/_next/static/images/atmseer-400-2d9d367b5ea1ded21088681abcee76e1.png",width:400,height:277}],src:"/_next/static/images/atmseer-400-2d9d367b5ea1ded21088681abcee76e1.png",toString:function(){return "/_next/static/images/atmseer-400-2d9d367b5ea1ded21088681abcee76e1.png"},placeholder: undefined,width:400,height:277};
+
+/***/ }),
+
+/***/ "./content/projects/prototype-net/architecture-original.png":
+/*!******************************************************************!*\
+  !*** ./content/projects/prototype-net/architecture-original.png ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/architecture-original-b99b38367f3a326aa25be5d645dc3101.png";
+
+/***/ }),
+
+/***/ "./content/projects/prototype-net/architecture-original.png?resize&size=400":
+/*!**********************************************************************************!*\
+  !*** ./content/projects/prototype-net/architecture-original.png?resize&size=400 ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {srcSet:"/_next/static/images/architecture-original-400-5451f2ed1169f7a43343f7bdf1d7f9c4.png"+" 400w",images:[{path:"/_next/static/images/architecture-original-400-5451f2ed1169f7a43343f7bdf1d7f9c4.png",width:400,height:182}],src:"/_next/static/images/architecture-original-400-5451f2ed1169f7a43343f7bdf1d7f9c4.png",toString:function(){return "/_next/static/images/architecture-original-400-5451f2ed1169f7a43343f7bdf1d7f9c4.png"},placeholder: undefined,width:400,height:182};
+
+/***/ }),
+
+/***/ "./content/projects/prototype-net/architecture.png":
+/*!*********************************************************!*\
+  !*** ./content/projects/prototype-net/architecture.png ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/architecture-7baec2e5ba6c972257403bec73d478f3.png";
+
+/***/ }),
+
+/***/ "./content/projects/prototype-net/architecture.png?resize&size=400":
+/*!*************************************************************************!*\
+  !*** ./content/projects/prototype-net/architecture.png?resize&size=400 ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {srcSet:"/_next/static/images/architecture-400-dd38e5a12cbc425f0bd2f367e6bbc28c.png"+" 400w",images:[{path:"/_next/static/images/architecture-400-dd38e5a12cbc425f0bd2f367e6bbc28c.png",width:400,height:182}],src:"/_next/static/images/architecture-400-dd38e5a12cbc425f0bd2f367e6bbc28c.png",toString:function(){return "/_next/static/images/architecture-400-dd38e5a12cbc425f0bd2f367e6bbc28c.png"},placeholder: undefined,width:400,height:182};
+
+/***/ }),
+
+/***/ "./content/projects/rnnvis/teaser-web.png":
+/*!************************************************!*\
+  !*** ./content/projects/rnnvis/teaser-web.png ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/teaser-web-0fd9f117fc0f54def0de94a1aed93371.png";
+
+/***/ }),
+
+/***/ "./content/projects/rnnvis/teaser-web.png?resize&size=400":
+/*!****************************************************************!*\
+  !*** ./content/projects/rnnvis/teaser-web.png?resize&size=400 ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {srcSet:"/_next/static/images/teaser-web-400-fcabe555dd5ab19412e21568c3c10b16.png"+" 400w",images:[{path:"/_next/static/images/teaser-web-400-fcabe555dd5ab19412e21568c3c10b16.png",width:400,height:268}],src:"/_next/static/images/teaser-web-400-fcabe555dd5ab19412e21568c3c10b16.png",toString:function(){return "/_next/static/images/teaser-web-400-fcabe555dd5ab19412e21568c3c10b16.png"},placeholder: undefined,width:400,height:268};
+
+/***/ }),
+
+/***/ "./content/projects/rule-matrix/teaser-origin.jpg":
+/*!********************************************************!*\
+  !*** ./content/projects/rule-matrix/teaser-origin.jpg ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/teaser-origin-a7e0f701239a0d3685f3b63d1b76674b.jpg";
+
+/***/ }),
+
+/***/ "./content/projects/rule-matrix/teaser-origin.jpg?resize&size=400":
+/*!************************************************************************!*\
+  !*** ./content/projects/rule-matrix/teaser-origin.jpg?resize&size=400 ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {srcSet:"/_next/static/images/teaser-origin-400-35c7438f4b5887400141c93ce0cb5074.jpg"+" 400w",images:[{path:"/_next/static/images/teaser-origin-400-35c7438f4b5887400141c93ce0cb5074.jpg",width:400,height:216}],src:"/_next/static/images/teaser-origin-400-35c7438f4b5887400141c93ce0cb5074.jpg",toString:function(){return "/_next/static/images/teaser-origin-400-35c7438f4b5887400141c93ce0cb5074.jpg"},placeholder: undefined,width:400,height:216};
+
+/***/ }),
+
+/***/ "./content/projects/rule-matrix/teaser.jpg":
+/*!*************************************************!*\
+  !*** ./content/projects/rule-matrix/teaser.jpg ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/teaser-16c6d6e9562df7062d675a6488a3bf23.jpg";
+
+/***/ }),
+
+/***/ "./content/projects/rule-matrix/teaser.jpg?resize&size=400":
+/*!*****************************************************************!*\
+  !*** ./content/projects/rule-matrix/teaser.jpg?resize&size=400 ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {srcSet:"/_next/static/images/teaser-400-817cee8aa3edde5fdf8b2e811824d941.jpg"+" 400w",images:[{path:"/_next/static/images/teaser-400-817cee8aa3edde5fdf8b2e811824d941.jpg",width:400,height:215}],src:"/_next/static/images/teaser-400-817cee8aa3edde5fdf8b2e811824d941.jpg",toString:function(){return "/_next/static/images/teaser-400-817cee8aa3edde5fdf8b2e811824d941.jpg"},placeholder: undefined,width:400,height:215};
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js":
 /*!**********************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/object/assign.js ***!
@@ -25947,7 +26409,7 @@ function PublicationX(props) {
     className: "pub-teaser-container mx-auto col-10 col-md-3 col-sm-4 py-2"
   }, publication.teaser ? // <a href={publication.teaser} className="fancybox fancybox.image">
   react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: publication.teaser,
+    src: Object(_utils_helpers__WEBPACK_IMPORTED_MODULE_3__["requireImageSmall"])(".".concat(publication.teaser)),
     className: "pub-teaser"
   }) // </a>
   : react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
@@ -26115,13 +26577,15 @@ function (_React$Component) {
 /*!******************************!*\
   !*** ./src/utils/helpers.js ***!
   \******************************/
-/*! exports provided: markedInline, urlForStatic */
+/*! exports provided: markedInline, urlForStatic, requireImage, requireImageSmall */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "markedInline", function() { return markedInline; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "urlForStatic", function() { return urlForStatic; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "requireImage", function() { return requireImage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "requireImageSmall", function() { return requireImageSmall; });
 /* harmony import */ var marked__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! marked */ "./node_modules/marked/lib/marked.js");
 /* harmony import */ var marked__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(marked__WEBPACK_IMPORTED_MODULE_0__);
 
@@ -26135,6 +26599,8 @@ var urlForStatic = function urlForStatic(path) {
 
   return "/static/".concat(path);
 };
+var requireImage = __webpack_require__("./content sync recursive \\.(png|jpe?g|gif)$");
+var requireImageSmall = __webpack_require__("./content sync recursive \\.(png|jpe?g)$");
 
 /***/ }),
 
