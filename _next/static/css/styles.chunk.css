@@ -7166,13 +7166,14 @@ header .navbar-brand {
 ul.socials {
   list-style: none;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  display: block; }
   ul.socials li {
     display: inline-block;
-    margin: 2px 6px 2px 0; }
+    margin: 2px 3px 2px 0; }
   ul.socials i {
     font-size: 18px;
-    padding: 0 3px;
+    padding: 0 2px;
     margin: 0; }
   ul.socials a {
     text-decoration: none;
@@ -7241,52 +7242,6 @@ ul.news {
   font-style: italic;
   font-weight: 600; }
 
-
-.experiences {
-  border: 0;
-  border-spacing: 0;
-  margin-bottom: 0; }
-  .experiences .date {
-    font-size: 0.75rem;
-    font-weight: 300;
-    min-width: 60px;
-    text-align: right; }
-  .experiences span.date-from::after {
-    content: " "; }
-  .experiences span.date-to {
-    white-space: nowrap; }
-    .experiences span.date-to::before {
-      content: "- "; }
-  .experiences tr {
-    border: none; }
-  .experiences td {
-    vertical-align: top;
-    border-bottom: none; }
-  .experiences span.institute::after {
-    content: ", "; }
-  .experiences div.content {
-    margin-top: 4px;
-    font-weight: 300;
-    font-size: 0.75rem; }
-
-.awards {
-  font-weight: 400;
-  border: 0;
-  border-spacing: 0; }
-  .awards .date {
-    font-size: 0.75rem;
-    font-weight: 300;
-    text-align: right;
-    min-width: 65px; }
-  .awards .award-content {
-    margin-top: 4px;
-    font-size: 0.7rem;
-    font-weight: 300; }
-  .awards tr {
-    border: none; }
-  .awards td {
-    vertical-align: top;
-    border-bottom: none; }
 
 .pub ul {
   list-style-type: none;
@@ -7363,62 +7318,53 @@ ul.news {
 .open:after {
   content: "-"; }
 
-.vita {
-  line-height: 1.5; }
-  .vita h5 {
-    font-size: 0.8rem;
-    margin-bottom: 0; }
-  .vita h2 {
-    font-size: 1.2rem; }
-
-@media print {
-  a {
-    text-decoration: none;
-    border-bottom: none; }
-  footer {
-    display: none; }
-  @page {
-    size: auto; } }
-
-.educations {
-  font-weight: 300;
+.experiences {
   border: 0;
   border-spacing: 0;
   margin-bottom: 0; }
-  .educations .degree {
-    font-weight: 600; }
-  .educations .date {
+  .experiences .date {
     font-size: 0.75rem;
     font-weight: 300;
     min-width: 60px;
     text-align: right; }
-  .educations span.date-from::after {
+  .experiences span.date-from::after {
     content: " "; }
-  .educations span.date-to {
+  .experiences span.date-to {
     white-space: nowrap; }
-    .educations span.date-to::before {
+    .experiences span.date-to::before {
       content: "- "; }
-  .educations span.institute::after {
-    content: ", "; }
-  .educations tr {
+  .experiences tr {
     border: none; }
-  .educations td {
+  .experiences td {
     vertical-align: top;
     border-bottom: none; }
+  .experiences span.institute::after {
+    content: ", "; }
+  .experiences div.content {
+    margin-top: 4px;
+    font-weight: 300;
+    font-size: 0.75rem; }
 
-.name {
-  font-size: 2.5rem;
-  margin-top: 0; }
-
-.contact {
-  font-weight: 300;
-  text-align: right; }
-  .contact i {
-    margin-right: 5px;
-    display: inline-flex;
-    align-self: center;
-    top: .2em;
-    position: relative; }
+.awards {
+  font-weight: 400;
+  border: 0;
+  border-spacing: 0; }
+  .awards .date {
+    font-size: 0.75rem;
+    font-weight: 300;
+    text-align: right;
+    min-width: 65px; }
+  .awards .award-content {
+    margin-top: 4px;
+    font-size: 0.7rem;
+    font-weight: 300; }
+    .awards .award-content p {
+      margin-bottom: 0; }
+  .awards tr {
+    border: none; }
+  .awards td {
+    vertical-align: top;
+    border-bottom: none; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/
