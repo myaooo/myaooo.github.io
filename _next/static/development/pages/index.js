@@ -26104,7 +26104,7 @@ function Bio(props) {
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "row"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "col-lg-3 col-md-4 col-sm-5 col-8 mx-auto mt-2",
+    className: "col-lg-3 col-md-4 col-sm-5 col-7 mx-auto mt-2",
     style: {
       textAlign: "center"
     }
@@ -26603,7 +26603,7 @@ function PublicationX(props) {
       __html: publication.short && Object(_utils_helpers__WEBPACK_IMPORTED_MODULE_3__["markedInline"])(publication.short) || ""
     }
   }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "pub-info col-12 col-md-9 col-sm-8 py-2"
+    className: "pub-info col-12 col-md-9 col-sm-8 py-1"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h5", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: publication.link,
     className: "pub-title",

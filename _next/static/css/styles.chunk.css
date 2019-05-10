@@ -7050,7 +7050,7 @@ html {
 body {
   position: relative;
   font-size: 0.8rem;
-  line-height: 2;
+  line-height: 1.7;
   color: #555;
   background: white; }
 
@@ -7189,19 +7189,23 @@ ul.socials {
       color: white; }
 
 ul.socials.detail {
-  margin-left: 12px; }
+  display: table;
+  margin: 0 auto; }
   ul.socials.detail li {
     display: flex;
     margin: 0;
     margin-bottom: 4px; }
   ul.socials.detail i {
     font-size: 16px;
+    position: relative;
+    top: 1px;
     margin-right: 2px; }
     ul.socials.detail i svg {
       width: 18px; }
   ul.socials.detail a {
     text-align: left;
-    padding: 3px; }
+    padding: 3px 5px 4px 5px;
+    white-space: nowrap; }
 
 #m-footer {
   font-size: 12px; }
@@ -7284,19 +7288,22 @@ ul.news {
 
 .pub-venue {
   color: gray;
-  margin-bottom: 2px; }
+  margin-bottom: 4px; }
 
 .pub-info {
   justify-content: center;
   padding: 0px 0; }
   .pub-info h5 {
     margin-top: 0px;
-    margin-bottom: 0px; }
+    margin-bottom: 4px; }
 
 .pub-title {
   color: black;
   font-weight: 500;
   font-family: "Helvetica Neue", sans-serif; }
+
+.pub-author {
+  margin-bottom: 4px; }
 
 .pub-teaser {
   width: 100%;
