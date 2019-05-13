@@ -49,33 +49,27 @@ ul.news {
   font-style: italic;
   font-weight: 600; }
 
-
-.experiences {
+.cv-table {
+  font-weight: 300;
   border: 0;
   border-spacing: 0;
-  margin-bottom: 0; }
-  .experiences .date {
+  margin-bottom: 0;
+  width: 100%; }
+  .cv-table .cv-left {
     font-size: 0.75rem;
     font-weight: 300;
-    min-width: 60px;
+    min-width: 120px;
+    max-width: 140px;
     text-align: right; }
-  .experiences span.date-from::after {
-    content: " "; }
-  .experiences span.date-to {
-    white-space: nowrap; }
-    .experiences span.date-to::before {
-      content: "- "; }
-  .experiences tr {
+    @media (max-width: 840px) {
+      .cv-table .cv-left {
+        min-width: 85px;
+        max-width: 95px; } }
+  .cv-table tr {
     border: none; }
-  .experiences td {
+  .cv-table td {
     vertical-align: top;
     border-bottom: none; }
-  .experiences span.institute::after {
-    content: ", "; }
-  .experiences div.content {
-    margin-top: 4px;
-    font-weight: 300;
-    font-size: 0.75rem; }
 
 .pub ul {
   list-style-type: none;
@@ -118,14 +112,14 @@ ul.news {
 
 .pub-venue {
   color: gray;
-  margin-bottom: 4px; }
+  margin-bottom: 3px; }
 
 .pub-info {
   justify-content: center;
   padding: 0px 0; }
   .pub-info h5 {
     margin-top: 0px;
-    margin-bottom: 4px; }
+    margin-bottom: 2px; }
 
 .pub-title {
   color: black;
@@ -133,7 +127,7 @@ ul.news {
   font-family: "Helvetica Neue", sans-serif; }
 
 .pub-author {
-  margin-bottom: 4px; }
+  margin-bottom: 3px; }
 
 .pub-teaser {
   width: 100%;
@@ -155,69 +149,45 @@ ul.news {
 .open:after {
   content: "-"; }
 
-.awards {
-  font-weight: 400;
-  border: 0;
-  border-spacing: 0; }
-  .awards .date {
-    font-size: 0.75rem;
-    font-weight: 300;
-    text-align: right;
-    min-width: 65px; }
-  .awards .award-content {
-    margin-top: 4px;
-    font-size: 0.7rem;
-    font-weight: 300; }
-    .awards .award-content p {
-      margin-bottom: 0; }
-  .awards tr {
-    border: none; }
-  .awards td {
-    vertical-align: top;
-    border-bottom: none; }
 
-.vita {
-  line-height: 1.5; }
-  .vita h5 {
-    font-size: 0.8rem;
-    margin-bottom: 0; }
-  .vita h2 {
-    font-size: 1.2rem; }
-
-@media print {
-  a {
-    text-decoration: none;
-    border-bottom: none; }
-  footer {
-    display: none; }
-  @page {
-    size: auto; } }
-
-.educations {
-  font-weight: 300;
-  border: 0;
-  border-spacing: 0;
-  margin-bottom: 0; }
-  .educations .degree {
-    font-weight: 600; }
-  .educations .date {
-    font-size: 0.75rem;
-    font-weight: 300;
-    min-width: 60px;
-    text-align: right; }
-  .educations span.date-from::after {
+.experiences {
+  font-weight: 400; }
+  .experiences span.date-from::after {
     content: " "; }
-  .educations span.date-to {
+  .experiences span.date-to {
     white-space: nowrap; }
-    .educations span.date-to::before {
+    .experiences span.date-to::before {
       content: "- "; }
-  .educations span.institute::after {
+  .experiences span.institute::after {
     content: ", "; }
-  .educations tr {
-    border: none; }
-  .educations td {
-    vertical-align: top;
-    border-bottom: none; }
+  .experiences div.description {
+    margin-top: 4px;
+    font-weight: 300;
+    font-size: 0.75rem; }
+
+.awards .award-title {
+  font-weight: 400; }
+
+.awards .award-content {
+  margin-top: 4px;
+  font-size: 0.7rem;
+  font-weight: 300; }
+  .awards .award-content p {
+    margin-bottom: 0; }
+
+.educations .degree {
+  font-weight: 600; }
+
+.educations span.date-from::after {
+  content: " "; }
+
+.educations span.date-to {
+  white-space: nowrap; }
+  .educations span.date-to::before {
+    content: "- "; }
+
+.educations span.institute::after {
+  content: ", "; }
 
 .name {
   font-size: 2.5rem;
@@ -232,4 +202,52 @@ ul.news {
     align-self: center;
     top: .2em;
     position: relative; }
+
+.talks .talk-title {
+  font-weight: 400; }
+
+.talks .talk-venue {
+  font-style: italic; }
+
+.vita {
+  line-height: 1.5;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  .vita h5 {
+    font-size: 0.8rem;
+    margin-bottom: 3px; }
+  .vita h2 {
+    font-size: 1.2rem; }
+  .vita p {
+    margin-bottom: 0; }
+  @media (min-width: 576px) {
+    .vita {
+      max-width: 560px; } }
+  @media (min-width: 768px) {
+    .vita {
+      max-width: 740px; } }
+  @media (min-width: 992px) {
+    .vita {
+      max-width: 780px; } }
+  @media (min-width: 1200px) {
+    .vita {
+      max-width: 820px; } }
+  .vita .cv-table .cv-left {
+    width: 90px; }
+    .vita .cv-table .cv-left .service-name, .vita .cv-table .cv-left .skill-name {
+      font-weight: 400;
+      white-space: pre; }
+
+@media print {
+  a {
+    text-decoration: none;
+    border-bottom: none; }
+  @page {
+    size: auto; } }
 
