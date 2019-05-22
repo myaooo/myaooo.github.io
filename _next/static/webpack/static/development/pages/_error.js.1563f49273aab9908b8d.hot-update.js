@@ -84,7 +84,7 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_error__WEBPACK_IMPORTED_MODULE_8___default.a, {
-        statusCode: this.props.errorCode
+        statusCode: this.props.statusCode
       });
     }
   }], [{
