@@ -29,25 +29,13 @@ webpackHotUpdate("styles",{
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1559696342944");
+            injectCss(link, link.href.split("?")[0] + "?unix=1559748192484");
           });
       }
     }
   
 
-/***/ }),
-
-/***/ "./src/components/home/Bio.scss":
-false,
-
-/***/ "./src/components/home/research.scss":
-false,
-
-/***/ 10:
-false,
-
-/***/ 7:
-false
+/***/ })
 
 })
-//# sourceMappingURL=styles.14026a6e7f83125e7467.hot-update.js.map
+//# sourceMappingURL=styles.37ca514782427bca2841.hot-update.js.map

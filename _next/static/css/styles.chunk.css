@@ -7219,6 +7219,30 @@ ul.socials.detail {
 #m-footer {
   font-size: 12px; }
 
+.m-info i {
+  margin-right: 5px; }
+
+.profile-wrapper {
+  border: 10px solid #eee;
+  border-radius: 50%; }
+  .profile-wrapper img {
+    border-radius: 50%; }
+
+ul.keywords {
+  list-style: none;
+  margin: 0;
+  padding: 4px 0; }
+  ul.keywords li {
+    display: inline-block;
+    margin: 2px 6px 2px 0; }
+
+ul.keywords span {
+  border: 1px solid #0684bd;
+  border-radius: 3px;
+  padding: 0px 6px 2px 6px;
+  margin: 0px 2px;
+  color: #0684bd; }
+
 ul.news {
   margin-left: 18px;
   padding-inline-start: 0px;
@@ -7253,29 +7277,6 @@ ul.news {
   .cv-table td {
     vertical-align: top;
     border-bottom: none; }
-
-.experiences {
-  font-weight: 400; }
-  .experiences span.date-from::after {
-    content: " "; }
-  .experiences span.date-to {
-    white-space: nowrap; }
-  .experiences span.institute::after {
-    content: ", "; }
-  .experiences div.description {
-    margin-top: 2px;
-    font-weight: 300;
-    font-size: 0.75rem; }
-
-.awards .award-title {
-  font-weight: 400; }
-
-.awards .award-content {
-  margin-top: 2px;
-  font-size: 0.7rem;
-  font-weight: 300; }
-  .awards .award-content p {
-    margin-bottom: 0; }
 
 .pub {
   break-inside: avoid; }
@@ -7350,6 +7351,30 @@ ul.news {
   line-height: 2;
   vertical-align: middle;
   align-items: center; }
+
+
+.experiences {
+  font-weight: 400; }
+  .experiences span.date-from::after {
+    content: " "; }
+  .experiences span.date-to {
+    white-space: nowrap; }
+  .experiences span.institute::after {
+    content: ", "; }
+  .experiences div.description {
+    margin-top: 2px;
+    font-weight: 300;
+    font-size: 0.75rem; }
+
+.awards .award-title {
+  font-weight: 400; }
+
+.awards .award-content {
+  margin-top: 2px;
+  font-size: 0.7rem;
+  font-weight: 300; }
+  .awards .award-content p {
+    margin-bottom: 0; }
 
 .educations .degree {
   font-weight: 600; }
