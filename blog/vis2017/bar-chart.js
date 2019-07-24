@@ -1,4 +1,5 @@
-let myChart = echarts.init(document.getElementById('acceptance'), undefined, {width: 600});
+let myChart = echarts.init(document.getElementById('acceptance'), undefined);
+// let myChart = echarts.init(document.getElementById('acceptance'), undefined);
 
 let option = {
     title: {
