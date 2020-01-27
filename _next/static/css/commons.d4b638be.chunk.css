@@ -7260,6 +7260,16 @@ ul.socials.detail {
     font-weight: 300;
     font-size: 0.75rem; }
 
+.awards .award-title {
+  font-weight: 400; }
+
+.awards .award-content {
+  margin-top: 2px;
+  font-size: 0.7rem;
+  font-weight: 300; }
+  .awards .award-content p {
+    margin-bottom: 0; }
+
 .pub {
   break-inside: avoid; }
   .pub ul {
@@ -7333,14 +7343,4 @@ ul.socials.detail {
   line-height: 2;
   vertical-align: middle;
   align-items: center; }
-
-.awards .award-title {
-  font-weight: 400; }
-
-.awards .award-content {
-  margin-top: 2px;
-  font-size: 0.7rem;
-  font-weight: 300; }
-  .awards .award-content p {
-    margin-bottom: 0; }
 
