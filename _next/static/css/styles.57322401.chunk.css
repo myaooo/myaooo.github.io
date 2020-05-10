@@ -1,3 +1,39 @@
+.m-info i {
+  margin-right: 5px; }
+
+.profile-wrapper {
+  border: 10px solid #eee;
+  border-radius: 50%; }
+  .profile-wrapper img {
+    border-radius: 50%; }
+
+ul.keywords {
+  list-style: none;
+  margin: 0;
+  padding: 4px 0; }
+  ul.keywords li {
+    display: inline-block;
+    margin: 2px 6px 2px 0; }
+
+ul.keywords span {
+  border: 1px solid #0684bd;
+  border-radius: 3px;
+  padding: 0px 6px 2px 6px;
+  margin: 0px 2px;
+  color: #0684bd; }
+
+ul.news {
+  margin-left: 18px;
+  padding-inline-start: 0px;
+  margin-block-end: 0px;
+  margin-block-start: 0px; }
+  ul.news li {
+    margin-bottom: 0.25rem; }
+
+.news-date {
+  font-style: italic;
+  font-weight: 600; }
+
 .post-wrapper {
   line-height: 2;
   padding-top: 12px;
@@ -170,42 +206,6 @@
 .project-body h4 {
   font-size: 1rem; }
 
-.m-info i {
-  margin-right: 5px; }
-
-.profile-wrapper {
-  border: 10px solid #eee;
-  border-radius: 50%; }
-  .profile-wrapper img {
-    border-radius: 50%; }
-
-ul.keywords {
-  list-style: none;
-  margin: 0;
-  padding: 4px 0; }
-  ul.keywords li {
-    display: inline-block;
-    margin: 2px 6px 2px 0; }
-
-ul.keywords span {
-  border: 1px solid #0684bd;
-  border-radius: 3px;
-  padding: 0px 6px 2px 6px;
-  margin: 0px 2px;
-  color: #0684bd; }
-
-ul.news {
-  margin-left: 18px;
-  padding-inline-start: 0px;
-  margin-block-end: 0px;
-  margin-block-start: 0px; }
-  ul.news li {
-    margin-bottom: 0.25rem; }
-
-.news-date {
-  font-style: italic;
-  font-weight: 600; }
-
 .cv-table {
   font-weight: 300;
   border: 0;
@@ -227,6 +227,19 @@ ul.news {
   .cv-table td {
     vertical-align: top;
     border-bottom: none; }
+
+.experiences {
+  font-weight: 400; }
+  .experiences span.date-from::after {
+    content: " "; }
+  .experiences span.date-to {
+    white-space: nowrap; }
+  .experiences span.institute::after {
+    content: ", "; }
+  .experiences div.description {
+    margin-top: 2px;
+    font-weight: 300;
+    font-size: 0.75rem; }
 
 .pub {
   break-inside: avoid; }
@@ -303,19 +316,6 @@ ul.news {
   align-items: center; }
 
 
-.experiences {
-  font-weight: 400; }
-  .experiences span.date-from::after {
-    content: " "; }
-  .experiences span.date-to {
-    white-space: nowrap; }
-  .experiences span.institute::after {
-    content: ", "; }
-  .experiences div.description {
-    margin-top: 2px;
-    font-weight: 300;
-    font-size: 0.75rem; }
-
 .awards .award-title {
   font-weight: 400; }
 
@@ -325,10 +325,6 @@ ul.news {
   font-weight: 300; }
   .awards .award-content p {
     margin-bottom: 0; }
-
-.m-info p {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem; }
 
 .educations .degree {
   font-weight: 600; }
@@ -421,6 +417,10 @@ ul.news {
     padding: 4px 0; }
   .page-content {
     margin-top: 50px; } }
+
+.m-info p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem; }
 
 .vita {
   line-height: 1.43;
