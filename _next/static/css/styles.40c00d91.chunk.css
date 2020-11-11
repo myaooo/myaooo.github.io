@@ -228,19 +228,6 @@ ul.news {
     vertical-align: top;
     border-bottom: none; }
 
-.experiences {
-  font-weight: 400; }
-  .experiences span.date-from::after {
-    content: " "; }
-  .experiences span.date-to {
-    white-space: nowrap; }
-  .experiences span.institute::after {
-    content: ", "; }
-  .experiences div.description {
-    margin-top: 2px;
-    font-weight: 300;
-    font-size: 0.75rem; }
-
 .pub {
   break-inside: avoid; }
   .pub ul {
@@ -316,6 +303,19 @@ ul.news {
   align-items: center; }
 
 
+.experiences {
+  font-weight: 400; }
+  .experiences span.date-from::after {
+    content: " "; }
+  .experiences span.date-to {
+    white-space: nowrap; }
+  .experiences span.institute::after {
+    content: ", "; }
+  .experiences div.description {
+    margin-top: 2px;
+    font-weight: 300;
+    font-size: 0.75rem; }
+
 .awards .award-title {
   font-weight: 400; }
 
@@ -325,6 +325,10 @@ ul.news {
   font-weight: 300; }
   .awards .award-content p {
     margin-bottom: 0; }
+
+.m-info p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem; }
 
 .educations .degree {
   font-weight: 600; }
@@ -357,6 +361,9 @@ ul.news {
     align-self: center;
     top: .2em;
     position: relative; }
+
+.name-small {
+  font-size: 1rem; }
 
 .talks .talk-title {
   font-weight: 400; }
@@ -402,6 +409,9 @@ ul.news {
     page-break-inside: avoid; }
   .vita #awards {
     page-break-inside: avoid; }
+  .vita .cv-table td {
+    padding-top: 0.3rem;
+    padding-bottom: 0.2rem; }
 
 @media print {
   a {
@@ -418,12 +428,8 @@ ul.news {
   .page-content {
     margin-top: 50px; } }
 
-.m-info p {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem; }
-
 .vita {
-  line-height: 1.43;
+  line-height: 1.5;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -454,6 +460,9 @@ ul.news {
     .vita .cv-table .cv-left .service-name, .vita .cv-table .cv-left .skill-name {
       font-weight: 400;
       white-space: pre; }
+  .vita .cv-table td {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem; }
 
 @media print {
   a {
@@ -461,12 +470,12 @@ ul.news {
     border-bottom: none; }
   @page {
     size: auto;
-    margin-top: 1.2cm;
+    margin-top: 1.5cm;
     margin-bottom: 1.0cm; }
   section {
-    border-top: 5px solid transparent;
-    margin-top: -5px;
+    border-top: 10px solid transparent;
+    margin-top: -10px;
     padding: 3px 0; }
   .page-content {
-    margin-top: 10px; } }
+    margin-top: 20px; } }
 
